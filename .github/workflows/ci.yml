@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: 'Lint with ESLint'
-        run: npx eslint index.js
+        run:  eslint . --ext .js
 
       - name: 'Run tests with Mocha'
         run: npx mocha
