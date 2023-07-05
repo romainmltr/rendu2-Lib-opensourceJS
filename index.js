@@ -21,7 +21,7 @@ festivalRegion.getFestivals("Auvergne-Rhône-Alpes")
         //console.log(festivals);
     })
     .catch(error => {
-        console.log('Error:', error)
+        console.log('Error:', error);
     });
 
 festivalDate.getFestivals("2021")
@@ -29,7 +29,7 @@ festivalDate.getFestivals("2021")
         //console.log(festivals);
     })
     .catch(error => {
-        console.log('Error:', error)
+        console.log('Error:', error);
     });
 
 

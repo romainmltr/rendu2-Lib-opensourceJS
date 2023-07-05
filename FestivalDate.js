@@ -1,7 +1,7 @@
 const axios = require('axios');
 class FestivalDate {
     constructor() {
-        this.baseURL = "https://data.culture.gouv.fr/api/records/1.0/search/?dataset=panorama-des-festivals&q=&rows=10&facet=date_de_debut&refine.date_de_debut="
+        this.baseURL = "https://data.culture.gouv.fr/api/records/1.0/search/?dataset=panorama-des-festivals&q=&rows=10&facet=date_de_debut&refine.date_de_debut=";
     }
     async getFestivals(date) {
         try {
