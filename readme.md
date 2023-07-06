@@ -1,10 +1,13 @@
-## This library is a wrapper of the event in france ! 💓
+This repository contains a library of the event in france
+you can choose a city and get all the festival in this city
+or you can choose a date and get all the festival in this date !
+Also you can get the festival depending on the region! :flag_fr: :flag_fr:
+---
 
-
-### Install
+### Install :satellite_orbital: ️
 
 ```bash
- $ npm install
+npm i rendu2-lib-malaterre-romain
  ```
 ### Use
 
@@ -12,13 +15,14 @@
  $ node index.js
  ```
 
-#### CMD
+####  test
 
 ```bash
  $ cd tests 
  $ mocha test.js
  ```
 
+#### eslint
 ```bash
  eslint . --ext .js  
  ```
@@ -39,4 +43,10 @@ festivalCity.getFestivalsCity("Marseille")
 
 ```
 
-#### Licscence MIT - 2019
+### Contributing :heartbeat:
+Contributions to this project are welcome.
+If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+### License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+
