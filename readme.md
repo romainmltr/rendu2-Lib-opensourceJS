@@ -1,28 +1,24 @@
-This repository contains a library of the event in france 
-you can choose a city and get all the festival in this city
-or you can choose a date and get all the festival in this date !
-Also you can get the festival depending on the region! 🇫🇷 🇫🇷
----
+## This library is a wrapper of the event in france ! 💓
 
-### Install 🛰 ️
+
+### Install
 
 ```bash
-npm i rendu2-lib-malaterre-romain
+ $ npm install
  ```
-### Use 
+### Use
 
 ```bash
  $ node index.js
  ```
 
-####  test
+#### CMD
 
 ```bash
  $ cd tests 
  $ mocha test.js
  ```
 
-#### eslint
 ```bash
  eslint . --ext .js  
  ```
@@ -43,10 +39,4 @@ festivalCity.getFestivalsCity("Marseille")
 
 ```
 
-### Contributing 💓
-Contributions to this project are welcome.
-If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-### License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
-
+#### Licscence MIT - 2019
